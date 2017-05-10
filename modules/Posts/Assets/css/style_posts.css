@@ -1,0 +1,39 @@
+a.button7 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+a.button7:hover { background: rgb(53, 167, 110); }
+a.button7:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.cbm_wrap{
+    margin: 20px auto;
+    display: block;
+    width: 100%;
+
+    padding:20px;
+    background-color: #F0F0F0;
+    -webkit-box-shadow:0 2px 5px hsla(0,0%,0%,.4),  inset 0 1px 0 #ccc,  inset 1px 0 0 #aaa,  inset 0 -1px 0 #ccc,  inset -1px 0 0 #aaa,  inset 0 2px 0 #c6c6c6,  inset 2px 0 0 #a6a6a6,  inset 0 -2px 0 #c6c6c6,  inset -2px 0 0 #a6a6a6,  inset 0 3px 0 #c0c0c0,  inset 3px 0 0 #a0a0a0,  inset 0 -3px 0 #c0c0c0,  inset -3px 0 0 #a0a0a0,  inset 0 4px 0 #b9b9b9,  inset 4px 0 0 #999,  inset 0 -4px 0 #b9b9b9,  inset -4px 0 0 #999,  inset 0 5px 0 #b6b6b6,  inset 5px 0 0 #969696,  inset 0 -5px 0 #b6b6b6,  inset -5px 0 0 #969696,  inset 0 6px 0 #b0b0b0,  inset 6px 0 0 #909090,  inset 0 -6px 0 #b0b0b0,  inset -6px 0 0 #909090,  inset 0 7px 0 #a9a9a9,  inset 7px 0 0 #898989,  inset 0 -7px 0 #a9a9a9,  inset -7px 0 0 #898989,  inset 0 8px 0 #a6a6a6,  inset 8px 0 0 #868686,  inset 0 -8px 0 #a6a6a6,  inset -8px 0 0 #868686,  inset 0 9px 0 #a0a0a0,  inset 9px 0 0 #808080,  inset 0 -9px 0 #a0a0a0,  inset -9px 0 0 #808080,  inset 0 10px 0 #888,  inset 10px 0 0 #666,  inset 0 -10px 0 #888,  inset -10px 0 0 #666,  inset 0 0 10px 10px hsla(0,0%,0%,.5),  inset 0 0 50px hsla(0,0%,0%,.5);
+    -moz-box-shadow:0 2px 5px hsla(0,0%,0%,.4),  inset 0 1px 0 #ccc,  inset 1px 0 0 #aaa,  inset 0 -1px 0 #ccc,  inset -1px 0 0 #aaa,  inset 0 2px 0 #c6c6c6,  inset 2px 0 0 #a6a6a6,  inset 0 -2px 0 #c6c6c6,  inset -2px 0 0 #a6a6a6,  inset 0 3px 0 #c0c0c0,  inset 3px 0 0 #a0a0a0,  inset 0 -3px 0 #c0c0c0,  inset -3px 0 0 #a0a0a0,  inset 0 4px 0 #b9b9b9,  inset 4px 0 0 #999,  inset 0 -4px 0 #b9b9b9,  inset -4px 0 0 #999,  inset 0 5px 0 #b6b6b6,  inset 5px 0 0 #969696,  inset 0 -5px 0 #b6b6b6,  inset -5px 0 0 #969696,  inset 0 6px 0 #b0b0b0,  inset 6px 0 0 #909090,  inset 0 -6px 0 #b0b0b0,  inset -6px 0 0 #909090,  inset 0 7px 0 #a9a9a9,  inset 7px 0 0 #898989,  inset 0 -7px 0 #a9a9a9,  inset -7px 0 0 #898989,  inset 0 8px 0 #a6a6a6,  inset 8px 0 0 #868686,  inset 0 -8px 0 #a6a6a6,  inset -8px 0 0 #868686,  inset 0 9px 0 #a0a0a0,  inset 9px 0 0 #808080,  inset 0 -9px 0 #a0a0a0,  inset -9px 0 0 #808080,  inset 0 10px 0 #888,  inset 10px 0 0 #666,  inset 0 -10px 0 #888,  inset -10px 0 0 #666,  inset 0 0 10px 10px hsla(0,0%,0%,.5),  inset 0 0 50px hsla(0,0%,0%,.5);
+    box-shadow:0 2px 5px hsla(0,0%,0%,.4),  inset 0 1px 0 #ccc,  inset 1px 0 0 #aaa,  inset 0 -1px 0 #ccc,  inset -1px 0 0 #aaa,  inset 0 2px 0 #c6c6c6,  inset 2px 0 0 #a6a6a6,  inset 0 -2px 0 #c6c6c6,  inset -2px 0 0 #a6a6a6,  inset 0 3px 0 #c0c0c0,  inset 3px 0 0 #a0a0a0,  inset 0 -3px 0 #c0c0c0,  inset -3px 0 0 #a0a0a0,  inset 0 4px 0 #b9b9b9,  inset 4px 0 0 #999,  inset 0 -4px 0 #b9b9b9,  inset -4px 0 0 #999,  inset 0 5px 0 #b6b6b6,  inset 5px 0 0 #969696,  inset 0 -5px 0 #b6b6b6,  inset -5px 0 0 #969696,  inset 0 6px 0 #b0b0b0,  inset 6px 0 0 #909090,  inset 0 -6px 0 #b0b0b0,  inset -6px 0 0 #909090,  inset 0 7px 0 #a9a9a9,  inset 7px 0 0 #898989,  inset 0 -7px 0 #a9a9a9,  inset -7px 0 0 #898989,  inset 0 8px 0 #a6a6a6,  inset 8px 0 0 #868686,  inset 0 -8px 0 #a6a6a6,  inset -8px 0 0 #868686,  inset 0 9px 0 #a0a0a0,  inset 9px 0 0 #808080,  inset 0 -9px 0 #a0a0a0,  inset -9px 0 0 #808080,  inset 0 10px 0 #888,  inset 10px 0 0 #666,  inset 0 -10px 0 #888,  inset -10px 0 0 #666,  inset 0 0 10px 10px hsla(0,0%,0%,.5),  inset 0 0 50px hsla(0,0%,0%,.5);
+    border:1px solid #eee;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    position:relative;
+}
+
+.cbm_wrap p{
+    margin-top: 15px !important;
+    text-align: justify !important;
+}
+
+
