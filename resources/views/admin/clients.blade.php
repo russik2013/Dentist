@@ -8,6 +8,7 @@
 
 ?>
 <link href="{{asset('dantist/table.css')}}" rel="stylesheet">
+<script src="{{asset('dantist/js/jquery-1.10.2.min.js')}}"></script>
 
 @extends('layouts.app')
 
@@ -19,11 +20,29 @@
     @foreach($clients as $item)
 
         <tr>
-            <td>{{$item->name}}</td>
+            <td id = '{{$item->id}}'>{{$item->name}}</td>
         </tr>
 
     @endforeach
 
 </table>
     </div>
+
+
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+
+            $('table tr').click(function(){
+
+                //alert($('td:first-child', this).attr('id'));
+                document.location.href = '/clientInfo/'+$('td:first-child', this).attr('id'); /* второй вариант, именно переход */
+            });
+
+        });
+
+    </script>
+
+
+
 @endsection

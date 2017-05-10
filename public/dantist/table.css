@@ -1,0 +1,41 @@
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    border-collapse: collapse;
+    color: #686461;
+}
+caption {
+    padding: 10px;
+    color: white;
+    background: #8FD4C1;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+}
+th {
+    border-bottom: 3px solid #B9B29F;
+    padding: 10px;
+    text-align: left;
+}
+td {
+    padding: 10px;
+}
+tr:nth-child(odd) {
+    background: #9ca4ff;
+}
+tr:nth-child(even) {
+    background: #E8E6D1;
+}
+
+.center {
+
+    margin-left: 30%; /* Выравниваем по центру */
+
+}
+
+.letter {
+    color: red; /* Красный цвет символов */
+    font-size: 200%; /* Размер шрифта в процентах */
+    font-family: serif; /* Шрифт с засечками */
+    position: relative; /* Относительное позиционирование */
+    top: 5px; /* Сдвиг сверху */
+}

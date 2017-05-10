@@ -27,6 +27,7 @@ Route::group(['middleware' => 'auth'], function () {
 
         Route::get('/admin', 'Admin\AdminCabController@index');
         Route::get('/allClients', 'Admin\AdminCabController@allClients');
+        Route::get('/clientInfo/{id}', 'Admin\AdminCabController@getClientInfo');
 
     });
 

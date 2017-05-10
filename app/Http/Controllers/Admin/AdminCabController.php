@@ -18,12 +18,19 @@ class AdminCabController extends Controller
         return view('admin.index');
 
     }
+
     public function allClients(){
 
         $clients = User::leftJoin('users_roles', 'users.id', '=', 'users_roles.user_id')->
             where('users_roles.role_id','=',2)->get();
 
         return view('admin.clients',compact('clients'));
+
+    }
+
+    public function getClientInfo($id){
+
+        dd($id);
 
     }
 }
