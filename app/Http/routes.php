@@ -15,12 +15,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/test', function(){
+    
+    return view('test');
+
+});
+
 Route::post('/loginUser', 'AktorController@checkUser');
 
 Route::auth();
 
-
-
+Route::get('/allWinding', 'WindingController@all');
 
 Route::group(['middleware' => 'auth'], function () {
     Route::group(['middleware' => 'role:admin'], function () {
